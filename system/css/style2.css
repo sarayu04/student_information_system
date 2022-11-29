@@ -1,0 +1,24 @@
+.table_data{margin-top: 10%;font-size: 12px;}
+.search{display: flex; justify-content: center;margin-top: 8%;}
+.show p a{text-decoration: none;color: azure;}
+.show{display: flex; font-family: 'Rajdhani', sans-serif; text-transform:capitalize ;justify-content: space-around;width: 64%;margin-top: 20%;margin-left: 15%;}
+.card{background-color: #00CC66;font-size: 27px;border: none;cursor: pointer;padding: 14px 20px;margin: 0;color: #FFFFFF;margin-top:7px;border-radius: 10%; margin-left: 0px;}
+.heading{display: flex;justify-content: center;font-size: 30px;margin-top: 4%;font-family: 'Rajdhani', sans-serif;color: blueviolet;text-transform: uppercase;text-decoration: underline;}
+.delete{font-size: 15px;text-decoration: none; color: white; background-color: red; padding: 8px; font-weight: 900; border-radius: 12px;}
+.message{display: flex;justify-content: center;font-size: 30px;font-family: 'Syne Mono', monospace;color: red;}
+
+label{width:271px; display: inline-block;color: darkblue;}
+
+#logoser{position: absolute;left: 36%;top: 26%;}
+#tab-des{font-family: 'Rajdhani', sans-serif;justify-content: center;display: flex;}
+#tab-des td, #tab-des th {border: 1px solid #ddd;padding: 8px;}
+#tab-des tr:hover {background-color: #ddd;}
+#tab-des th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #04AA6D;color: white;}
+#ser{width: 30%;height: 30px;padding: 4px;}
+#btn-ser{width: 60px;}
+#form{line-height: 30px;font-size: 23px;display: flex;justify-content: center;margin-top: 5%;font-family: 'Rajdhani', sans-serif;}
+#submit{padding: 16px;font-size: 20px;margin-top: 5%;margin-left: 36%;color: floralwhite;background-color: cornflowerblue;border: none;border-radius: 12px;}
+#submit:hover{color:ghostwhite;background-color: blueviolet;}
+#back{padding: 7px;font-size: 20px;margin-top: 30px;margin-left: 42%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');

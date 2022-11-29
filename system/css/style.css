@@ -1,0 +1,40 @@
+body{margin: 0; background-image: url('cover.jpg');/*overflow: hidden;*/}
+* {box-sizing: border-box;}
+.top-heading{font-size: 57px;font-family: 'Syne Mono', monospace;font-style: normal;text-transform: uppercase;color: #DE3163;display: inline;margin-left: 9%;}
+.header{display: flex;justify-content: center;margin-top: 40px;}
+.row{display:flex;justify-content: center;/*clear:both;content:"";*/width: 100%;margin-top: 70px;    height: 430px;}
+.column{float: left;  width: 25.33%;  /* margin-left: 183px;*/}
+.column img{width: 200px; margin-top: 0px; border-radius: 50%;}
+.card { width: 200px;}
+button{background-color: #00CC66;font-size: 16px;border: none;cursor: pointer;width: 100%;padding: 14px 0;margin: 0;color: #FFFFFF;margin-top:7px;border-radius: 10%; margin-left: 0px;}
+button:hover{opacity: 0.6;}
+.sidebar ul{list-style: none; color:chocolate;font-size: 20px;font-weight: 600;}
+.sidebar ul li a{text-decoration: none; color:darkslategrey}
+.card img:hover{opacity: 0.6;}
+.sidebar{width: 20%;padding: 30px;line-height: 50px;text-transform: uppercase;}
+.records{line-height: 42px;font-size: 29px;}
+.records ul {list-style: none;font-weight: bold;}
+.records ul a{color: antiquewhite;text-decoration: none; font-family: 'Source Code Pro', monospace;   text-transform: uppercase;display: block;}
+.records ul li a:hover{color: black;}
+.records ul li:hover{background-color:aliceblue ;padding-left: 20px;}
+.records li:last-child:hover{background-color: #DE3163;padding-left: 20px;}
+.records li:last-child a {background-color: #DE3163;}
+footer{background-color: aliceblue;width:100%;position: absolute;}
+.time {float: right;display: flex; justify-content: center;}
+.search{position: relative;left:20px;top:20px;}
+.round-box{height: 35px; border-radius: 20px;padding: 15px;border:none;}
+
+@media (max-width:1440px){.row{height: 332px;}#form{font-size: 16px;}/*.modal{padding-top: 2px;height: 0;}*/}
+@media only screen and (max-width: 1024px){label{width: 170px;}}
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+#submit{background-color: #00CC66;font-size: 16px;border: none;cursor: pointer;width: 10%;padding: 14px 0;margin: 0;color: #FFFFFF;margin-top:7px;border-radius: 10%; margin-left: 0px;}
+#close{background-color: red;font-size: 16px;border: none;cursor: pointer;width: 10%;padding: 14px 0;margin: 0;color: #FFFFFF;margin-top:7px;border-radius: 10%; margin-left: 0px;}
+#clock{font-size: 35px;position: relative;float: right;top: 0px;margin-right: 20px;color: darkblue;background-color: aliceblue;padding: 4px;border-radius: 15px;}
+@media only screen and (min-width:1024){
+.top-heading  {font-size: 53px;}
+.row{margin-left: 70px;}
+.modal{padding-top: 2px;}
+}
